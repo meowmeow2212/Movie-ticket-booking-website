@@ -1,0 +1,22 @@
+#listmovieitem {
+    font-family: "Roboto", sans-serif !important;
+    position: relative;
+    .card {
+        .popupVideo {
+            top: 25%;
+            left: 25%;
+            position: absolute;
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        .modal-video {
+            position: relative;
+            width: 100vh;
+            .modal-video-body {
+                position: absolute;
+            }
+        }
+    }
+}
